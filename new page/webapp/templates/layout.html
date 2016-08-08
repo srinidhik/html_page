@@ -92,7 +92,7 @@
 
                 <ul class="tabs " data-tab>
                     <li class="tab-title"><a href="#bookorder"><div class="num_font">1</div>BOOK ORDER</a></li>
-                    <li class="tab-title"><a href="#connect"><div class="num_font">2</div>CONNECT TO DESIGNER</a></li>
+                    <li class="tab-title"><a href="#"><div class="num_font">2</div>CONNECT TO DESIGNER</a></li>
                     <li class="tab-title"><a href="#"><div class="num_font">3</div>FURNITURE LAYOUT</a></li>
                     <li class="tab-title"><a href="#"><div class="num_font">4</div>MATERIALS & COLORS</a></li>
                     <li class="tab-title"><a href="#"><div class="num_font">5</div>3D RENDERS</a></li>
@@ -185,11 +185,12 @@
                                     </div><br>
 
                                     <div class="small-16 columns">
-                                        <select >
-                                            <option>SELECT PACKAGE</option>
-                                        </select>
-                                    </div><br>
-                                    <div><br></div>
+                                        <input type="text" list="package" name="package" placeholder="SELECT PACKAGE" />
+                                            <datalist id="package">
+                                                <option value="package1">
+                                                <option value="package2">
+                                            </datalist>
+                                    </div>
 
 
                                     <div class="small-6 columns left">
@@ -301,30 +302,26 @@
     <div id="gallery">
         <div class="heading">GALLERY</div>
         <div class="line"><hr></div>
+        <h5 style="color: red; margin-left: 14%">PREVIOUS PROJECT NAME<br></h5>
         <div class="row">
-            <div class="large-12 columns" style="left: -10%">
+            <div class="large-6 columns left">
+                <img src="/static/kitchen.jpg">
+            </div><!--col 6-->
+            <div class="large-6 columns left" style="padding:0%">
                 <div class="large-6 columns left">
-                    <img src="/static/kitchen.jpg">
+                    <img src="/static/bed.jpg">
                 </div><!--col 6-->
-                <div class="large-6 columns">
-
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-                    <br><br>
-
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-
-                </div>
-            </div><!--col 12-->
+                <div class="large-6 columns left">
+                    <img src="/static/bed.jpg">
+                </div><!--col 6-->
+                <br><br>
+                <div class="large-6 columns left" style="padding-top:1%">
+                    <img src="/static/bed.jpg">
+                </div><!--col 6-->
+                <div class="large-6 columns left" style="padding-top:1%">
+                    <img src="/static/bed.jpg">
+                </div><!--col 6-->
+            </div>
         </div><!--class row-->
     </div><!--gallery-->
     <br><br>

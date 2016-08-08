@@ -14,9 +14,108 @@
 
 <body>
 
+<header>
+    <div class="row"  style="max-width: 111.5rem;">
+        <ul class="button-group right">
+            <li ><a href="#" style="color: black;"><img src="/static/fi-telephone.svg" alt="phone" style="width:20px; height:20px;">040-660660454</a></li>
+            <li><p>|</p></li>
+            <li ><a href="#" style="color: black;"><img src="/static/fi-mail.svg" alt="mail" style="width:20px; height:20px;">Wecare@kustomMade.com</a></li>
+        </ul>
+    </div>
+</header>
+
 <div id="body-wrapper">
+    <div class="off-canvas-wrap">
+        <div class="row" style="max-width: 121.5rem;">
+            <div class="columns large-4 medium-4 left">
+                <a href="#"><img src="/static/custom-furnish.png" alt="icon" style="width: 337px; height: 44px;"></a>
+            </div>
+        <div class="columns large-5 right ">
+            <nav class="top-bar"  role="navigation">
+                <section class="top-bar-section">
+                    <ul class="button-group right">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">DESIGN-SERVICE</a></li>
+                        <li><a href="#">SAMPLE-PROJECT</a></li>
+                        <li><a href="#">TESTIMONIALS</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+        </div><!--row-->
+    </div>
+    <br>
 
+    <div id="hr1"><hr></div>
 
+    <div id="first">
+        <div id="one">DESIGN SERVICE <small> STARTS FROM </small><strong> Rs 20,000/-*</strong> </div>
+        <div class="row" style="max-width: 100rem">
+            <div class="large-12 columns">
+                <div class="large-2 columns" id="box1">
+                    <a href="#bookorder"><img src="/static/bookorder.png"></a>
+                </div>
+                <div class="large-1 columns" id="arrow1">
+                    <img src="/static/arrow.png">
+                </div>
+                <div class="large-2 columns" id="box2">
+                    <a href="#"><img src="/static/furniturelayout.png"></a>
+                </div>
+                <div class="large-1 columns" id="arrow2">
+                    <img src="/static/arrow.png">
+                </div>
+                <div class="large-2 columns" id="box3">
+                    <a href="#"><img src="/static/3d.png"></a>
+                </div>
+                <div class="large-1 columns" id="arrow3">
+                    <img src="/static/arrow.png">
+                </div>
+                <div class="large-2 columns" id="box4">
+                    <a href="#"><img src="/static/productiondoc.jpg"></a>
+                </div>
+            </div><!--col-12-->
+        </div><!--row-->
+        <br>
+        <div class="content active row"  id="bookorder" style="background-color: grey; max-width:116rem">
+            <div class="columns large-4 left">
+                <img src="/static/book_order.png" id="book_order" >
+            </div>
+            <div class="columns large-6 offset-1 left" style="margin-top:2%"> Our Designer will contact you to understand your requirement and to take required inputs</div>
+
+        </div>
+
+        <div id="two">
+        <form>
+            <div class="row" id="form1">
+                <div class="large-2 columns left">
+                    <input type="text" placeholder="Name" />
+                </div>
+
+                <div class="large-4 columns left">
+                    <input type="email" placeholder="Email" />
+                </div>
+
+                <div class="large-2 columns left">
+                    <input type="text" placeholder="Phone" />
+                </div>
+
+                <div class="large-2 columns left" >
+                    <a  href="#" class="button" style="padding-bottom: 10px; padding-top: 10px; background-color: red; color: white;">CONTACT ME</a>
+                </div>
+
+                <div class="large-2 columns">
+                    <a href="#" style="color:white"><u>VIEW PACKAGES</u></a>
+                </div>
+            </div>
+        </form>
+        </div><!--form-->
+        <br>
+
+        <div id="three">*Get All Production ready Documents - Designs, Engineering Drawings, Bill of Material </div>
+
+    </div><!--first block-->
+    <br><br><br><br><br>
 
     <div class="pkg">
         <div id="pkg1">PACKAGES</div>
@@ -95,11 +194,12 @@
                                     </div><br>
 
                                     <div class="small-16 columns">
-                                        <select >
-                                            <option>SELECT PACKAGE</option>
-                                        </select>
-                                    </div><br>
-                                    <div><br></div>
+                                        <input type="text" list="package" name="package" placeholder="SELECT PACKAGE" />
+                                            <datalist id="package">
+                                                <option value="package1">
+                                                <option value="package2">
+                                            </datalist>
+                                    </div>
 
 
                                     <div class="small-6 columns left">
@@ -211,30 +311,26 @@
     <div id="gallery">
         <div class="heading">GALLERY</div>
         <div class="line"><hr></div>
+        <h5 style="color: red; margin-left: 14%">PREVIOUS PROJECT NAME<br></h5>
         <div class="row">
-            <div class="large-12 columns" style="left: -10%">
+            <div class="large-6 columns left">
+                <img src="/static/kitchen.jpg">
+            </div><!--col 6-->
+            <div class="large-6 columns left" style="padding:0%">
                 <div class="large-6 columns left">
-                    <img src="/static/kitchen.jpg">
+                    <img src="/static/bed.jpg">
                 </div><!--col 6-->
-                <div class="large-6 columns">
-
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-                    <br><br>
-
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-                        <div class="large-6 columns left">
-                            <img src="/static/bed.jpg">
-                        </div><!--col 6-->
-
-                </div>
-            </div><!--col 12-->
+                <div class="large-6 columns left">
+                    <img src="/static/bed.jpg">
+                </div><!--col 6-->
+                <br><br>
+                <div class="large-6 columns left" style="padding-top:1%">
+                    <img src="/static/bed.jpg">
+                </div><!--col 6-->
+                <div class="large-6 columns left" style="padding-top:1%">
+                    <img src="/static/bed.jpg">
+                </div><!--col 6-->
+            </div>
         </div><!--class row-->
     </div><!--gallery-->
     <br><br>
@@ -291,7 +387,7 @@
 
 </div>
 
-<div id="footer">
+<footer>
     <div class="line"><hr></div>
     <div class="bgc">
     <br>
@@ -307,25 +403,25 @@
             <div class="medium-3 columns">Sofas</div>
             <div class="medium-3 columns">Twitter</div>
             <div class="medium-3 columns"><a href="#" style="color: black;"><img src="/static/fi-telephone.svg" alt="phone" style="width:20px; height:20px;">040-660660454</a></div>
-        </div><!--heading row-->
+        </div><!--row-->
         <div class="row">
             <div class="medium-3 columns">Terms & Conditions</div>
             <div class="medium-3 columns">Wardrobes</div>
             <div class="medium-3 columns">Facebook</div>
             <div class="medium-3 columns"><a href="#" style="color: black;"><img src="/static/fi-mail.svg" alt="mail" style="width:20px; height:20px;">Wecare@kustomMade.com</a></div>
-        </div><!--heading row-->
+        </div><!--row-->
         <div class="row">
             <div class="medium-3 columns">Privacy Policy</div>
             <div class="medium-3 columns">Kitchens</div>
             <div class="medium-3 columns">Pintrest</div>
             <div class="medium-3 columns"></div>
-        </div><!--heading row-->
+        </div><!--row-->
         <div class="row">
             <div class="medium-3 columns">Delivery & Return policy</div>
             <div class="medium-3 columns"></div>
             <div class="medium-3 columns">Google</div>
             <div class="medium-3 columns"></div>
-        </div><!--heading row-->
+        </div><!--row-->
         <br>
     <div class="line1"><hr></div>
     <ul class="button-group" style="margin-left: 500px">
@@ -333,6 +429,7 @@
         <li class="img"><img src="/static/maestro.jpg"></li>
         <li class="img"><img src="/static/mastercard.png"></li>
         <li class="img"><img src="/static/paytm.png"></li>
+        <li class="img"><img src="/static/256bit.png"></li>
         <li class="img"><img src="/static/netbanking.png"></li>
     </ul>
     <div class="line1"><hr></div><br>
@@ -348,7 +445,7 @@
 
 
     </div><!--bgc-->
-</div><!--footer end-->
+</footer><!--footer end-->
 
 <script type="text/javascript" src="/static/foundation.min.js"></script>
 <script type="text/javascript" src="/static/modernizr.js"></script>
