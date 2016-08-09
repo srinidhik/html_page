@@ -1,144 +1,57 @@
-.off-canvas-wrap{
-padding-top: 20px;
-max-width: 79rem;
-margin-left: 16%;
+body{
+overflow-y:show;
+overflow-x:hidden;
 }
 
-.off-canvas-wrap li{
+li{
 padding:5px
 }
 
-.top-bar-section, nav.top-bar{
-background: #fff;
-
+.fixed{
+   background-color: #fff;
 }
 
-nav.top-bar{
+#row1{
+    background-color:#dad6d6;
+    max-width: 116.5rem;
+    height: 34px;
+}
+
+.fixed .top-bar-section, nav.top-bar{
+background: #fff;
+}
+
+.fixed .top-bar-section ul li {
+    background: #fff;
+}
+
+.fixed nav.top-bar{
 text-align: center;
 }
 
-.top-bar-section li:not(.has-form) a:not(.button){
+.fixed .top-bar-section li:not(.has-form) a:not(.button){
 background: #fff;
 color: #000;
 font-size:16px;
 text-align: center;
-
 }
 
-.top-bar-section li:not(.has-form) a:not(.button):hover{
+.fixed .top-bar-section li:not(.has-form) a:not(.button):hover{
 background: #fff;
 color: #ff3333;
 }
 
-section.top-bar-section {
+.fixed section.top-bar-section {
 display: inline-block;
 
 }
 
-
-#hr1 hr{
+.fixed #hr1 hr{
     border-top: 2px solid #ff3333;
 }
 
-.image_class{
-position: relative;
-opacity: 0.9;
-}
-
-.image_class #one{
-position: absolute;
-top: 5%;
-left: 30%;
-font-size:40px;
-color: #fff;
-}
-
-.image_class #two{
-position: absolute;
-top: 10%;
-left: 33%;
-font-size:20px;
-color: #fff;
-}
-
-.image_class #three{
-position: absolute;
-top: 15%;
-left: 30%;
-font-size:35px;
-color: #fff;
-}
-
-.image_class #knowmore {
-    position: absolute;
-    top: 42%;
-    left: 44%;
-}
-
-.image_class #four{
-position: absolute;
-top: 50%;
-left: 28%;
-font-size:20px;
-color: #fff;
-}
-#five{
-    background-color: whitesmoke;
-    opacity: 0.6;
-}
-
-.image_class #five #form1{
-position: absolute;
-top: 82%;
-max-width: 93.5rem;
-
-}
 
 
-
-.hiw #hiw1{
-    text-align: center;
-    font-size: 175%;}
-
-.hiw #hiw2 hr{
-    margin-left: 14%;
-    margin-right: 14%;
-    border-top: 1px solid grey;
-}
-
-.num_font{
-font-size: 150%
-}
-
-.tabs{
-background-color: white;
-margin-left: 13%
-}
-
-.tab-title a:not(.button){
-padding-top: 20px;
-padding-left: 20px;
-padding-right: 40px;
-padding-bottom: 40px;
-text-align: left;
-    background-color: black;
-    color: white;
-    margin-top: 5px;
-margin-right: 5px;
-margin-left: 5px;
-margin-bottom: 5px;
-border-top-width: 15px;
-border-right-width: 15px;
-border-bottom-width: 15px;
-border-left-width: 15px;
-
-
-}
-.tab-title li:not(.has-form) a:not(.button):hover{
-background: black;
-color: white;
-
-}
 
 .pkg #pkg1{
     text-align: center;
@@ -173,6 +86,7 @@ margin-left: -50%;
 padding-top: 50px;
 padding-left: 40px;
 padding-right: 40px;
+
 }
 
 
@@ -367,6 +281,7 @@ font-size: 13px;
     font-size: 110%;
     padding-top: 6%;
     padding-bottom: 5%;
+
 }
 
 #testimonials .test_cap {
@@ -420,4 +335,39 @@ font-size: 13px;
 #faq .answer{
     font-size: 100%;
     margin-left: 200px;
+}
+
+
+
+
+footer .line hr{
+    margin-left: 8%;
+    margin-right: 8%;
+    border-top: 1px solid black;
+}
+
+footer .bgc{
+    background-color: lightyellow;
+    margin-top: -1%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+footer .row{
+    max-width: 90.5rem;
+}
+
+footer .line1 hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid black;
+}
+
+footer .img{
+    width: 64px;
+    height: 64px;
+}
+
+footer li{
+padding:5px
 }
