@@ -112,7 +112,6 @@ font-size: 150%
 
 .tabs{
 background-color: white;
-margin-left: 13%
 }
 
 .tab-title a:not(.button){
@@ -131,13 +130,15 @@ border-top-width: 15px;
 border-right-width: 15px;
 border-bottom-width: 15px;
 border-left-width: 15px;
-
-
 }
+
+.tabs .tab-title {
+    width: 16%;
+}
+
 .tab-title li:not(.has-form) a:not(.button):hover{
 background: black;
 color: white;
-
 }
 
 .pkg #pkg1{
